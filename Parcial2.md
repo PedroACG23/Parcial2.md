@@ -964,6 +964,8 @@ void main() {
 
 #### 10.4 Prueba de escritorio
                 
+![image](https://user-images.githubusercontent.com/113472808/198409155-c7c90450-0cbc-44c8-91f9-49496bd4a17f.png)
+
 
 
 #### 10.5 Entradas
@@ -1030,7 +1032,8 @@ void main() {
 
 
 #### 11.4 Prueba de escritorio
-![Prueba11](https://user-images.githubusercontent.com/113472808/190941349-7519dcdf-3ba7-43b8-8821-1762a7712014.PNG)
+  
+![image](https://user-images.githubusercontent.com/113472808/198407761-654a0788-b11b-467e-9c44-b7c21f7283a8.png)
                 
                 
 #### 11.5 Entradas
@@ -1088,7 +1091,9 @@ void main() {
 
 
 #### 12.3 Prueba de escritorio
-![Prueba 12](https://user-images.githubusercontent.com/113472808/190944120-343a39aa-7733-4640-9ba0-58b9ec09dab7.PNG)
+  
+![image](https://user-images.githubusercontent.com/113472808/198406463-e2c6ea2e-3064-4ee4-997a-20b93848b972.png)
+  
 #### 12.4 Entradas
 Almacenar los 10 numeros positivos [4 6 2 5 0 8 4 6 5 2] sacar las distacias y decir cual es mayor
 #### 12.5 Salidas
@@ -1118,7 +1123,9 @@ void main() {
 
 
 #### 13.4 Prueba de escritorio
-![image](https://user-images.githubusercontent.com/113472808/190945543-cd75ca9b-3bc1-4131-b1d2-9f890305610f.png)
+                         
+![image](https://user-images.githubusercontent.com/113472808/198406537-3885a851-2c2d-4dac-b034-a49dd14999c1.png)
+                         
 #### 13.5 Entradas
 Ingresar el numero para sacar su tabla de multiplicar 5
 #### 13.6 Salidas
@@ -1158,7 +1165,10 @@ void main() {
 
 
 #### 14.4 Prueba de escritorio
-![image](https://user-images.githubusercontent.com/113472808/190950119-ce00b111-f12c-41dc-84ba-efead85e8e82.png)
+                          
+![image](https://user-images.githubusercontent.com/113472808/198406618-3511e9fe-384c-44fb-8762-79d049550c03.png)
+
+
 #### 14.5 Entradas
 Ninguna, se imprime el * y va saliendo cada linea de *
 #### 14.6 Salida
