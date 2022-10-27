@@ -11,10 +11,44 @@ Se necesita que el programa avance del 1 al 10, mientras vaya sumando mediante u
 ![dfd1for](https://user-images.githubusercontent.com/113472808/198164698-b41e274f-3043-4cba-b516-edf7e650b492.png)
 
 #### 1.3 Prueba de escritorio
-![Prueba1](https://user-images.githubusercontent.com/113472808/190934123-5d7101b8-e398-423c-8488-aa24685bf4a5.PNG)
-#### 1.4 Entradas
+
+
+#### 1.4 codigo
+//Contar los numeros del 1 al 10 DoWhile
+
+void main() {
+  int cont = 1;
+  do {
+    print(cont);
+    cont = cont + 1;
+  } while (cont <= 10);
+}
+
+
+//Contar los numeros del 1 al 10 For
+
+void main() {
+  for (var i = 1; i <= 10; i++) {
+    print(i);
+  }
+}
+
+
+//Contar los numeros del 1 al 10 While
+
+void main() {
+  int cont = 1;
+
+  while (cont <= 10) {
+    print(cont);
+    cont = cont + 1;
+  }
+}
+
+
+#### 1.5 Entradas
 Ningua, solo establece un contador en 0 que vaya en aumento hasta 10
-#### 1.5 Salidas
+#### 1.6 Salidas
 Imprime el aumento del contador. 1,2,3,4,5,6,7,8,9,10
 
 ### Ejercicio 2. Contar del 1 al 10 y sumar los valores.
@@ -28,7 +62,7 @@ Se requiere insertar un inicio y posteriormente una salida de datos que imprima 
 ![dfd2for](https://user-images.githubusercontent.com/113472808/198164781-8ad2f5f0-3e9c-434f-ad28-4b5192a07236.png)
 
 #### 2.3 Prueba de escritorio
-![Prueba2](https://user-images.githubusercontent.com/113472808/190934395-b322a5f3-69b3-4a48-bbda-c0b0133ad699.PNG)
+
 #### 2.4 Entradas
 Ninguna, solo se asigna la impresion de "Lunes"
 #### 2.5 Salidas
