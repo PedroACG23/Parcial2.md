@@ -181,11 +181,60 @@ Se requiere insertar un inicio, el programa preguntara el nombre al usuario, lo 
 
 ![dfd4for](https://user-images.githubusercontent.com/113472808/198164861-f4f1142a-01b5-4230-8459-bcee4f602011.png)
 
-#### 4.3 Prueba de escritorio
+#### 4.3 Codigo
+//Almacena en un array el numero N leido del teclado, el tamaño del array es 10 FOR
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var cont = 0;
+  var array = [];
+  int n = int.parse(stdin.readLineSync()!);
+  do {
+    array.add(n);
+    cont = cont + 1;
+  } while (cont <= 9);
+
+  print(array);
+}
+
+
+//Almacena en un array el numero N leido del teclado, el tamaño del array es 10 FOR
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+  int n = int.parse(stdin.readLineSync()!);
+  for (var i = 0; i < 10; i++) {
+    array.add(n);
+  }
+  print(array);
+}
+
+
+//Almacena en un array el numero N leido del teclado, el tamaño del array es 10 FOR
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var cont = 0;
+  var array = [];
+  int n = int.parse(stdin.readLineSync()!);
+  while (cont <= 9) {
+    array.add(n);
+    cont = cont + 1;
+  }
+
+  print(array);
+}
+
+
+#### 4.4 Prueba de escritorio
 ![Prueba4](https://user-images.githubusercontent.com/113472808/190936214-9e9812d1-cda7-40c5-a980-049e0c0cd13b.PNG)
-#### 4.4 Entradas
+#### 4.5 Entradas
 Se pide que se introduzca el nombre de la persona
-#### 4.5 Salidas
+#### 4.6 Salidas
 Buen dia Pedro
 
 ### Ejercio 5. Almacene los N numeros leidos del teclado en un vector de 10 elementos.
@@ -198,11 +247,63 @@ Se requiere un inicio, para ingresar un proceso de datos para la operacion 2x2 p
 
 ![dfd5for](https://user-images.githubusercontent.com/113472808/198164895-ec6fd128-cd68-477c-b376-c07897cce463.png)
 
-#### 5.3 Prueba de escritorio
+#### 5.3 Codigo
+
+//Almacena los N numeros leidos del telcado en un vector de 10 elementos WHILE
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var cont = 0;
+  var array = [];
+  do {
+    int n = int.parse(stdin.readLineSync()!);
+    array.add(n);
+    cont = cont + 1;
+  } while (cont <= 9);
+
+  print(array);
+}
+
+
+
+//Almacena los N numeros leidos del telcado en un vector de 10 elementos FOR
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+
+  for (var i = 0; i < 10; i++) {
+    int n = int.parse(stdin.readLineSync()!);
+    array.add(n);
+  }
+  print(array);
+}
+
+
+//Almacena los N numeros leidos del telcado en un vector de 10 elementos WHILE
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var cont = 0;
+  var array = [];
+
+  while (cont <= 9) {
+    int n = int.parse(stdin.readLineSync()!);
+    array.add(n);
+    cont = cont + 1;
+  }
+  print(array);
+}
+
+
+#### 5.4 Prueba de escritorio
 ![Prueba5](https://user-images.githubusercontent.com/113472808/190936639-8b5e7f29-d8ee-477c-835b-0f9d3f9f9726.PNG)
-#### 5.4 Entradas
+#### 5.5 Entradas
 Ninguna solo se realiza el proceso 2x2
-#### 5.5
+#### 5.6
 2x2
 
 ### Ejercicio 6. Almacene un contador regresivo en un vector, el conteo es de 10 a 0
@@ -215,11 +316,54 @@ Se requiere un inicio, para ingresar el valor de N que sera de 5, posteriomente 
 
 ![dfd6for](https://user-images.githubusercontent.com/113472808/198164917-df10bffa-3cb3-4bad-9be7-48e0c503330f.png)
 
-#### 6.3 Prueba de escritorio
+#### 6.3 Codigo
+
+//Almacene un contador regresivo en un vector, el conteo es de 10 a 0 DoWhile
+
+void main() {
+  var array = [];
+  var c = 10;
+  do {
+    array.add(c);
+    c--;
+  } while (c >= 0);
+
+  print(array);
+}
+
+
+//Almacene un contador regresivo en un vector, el conteo es de 10 a 0 FOR
+
+void main() {
+  var array = [];
+
+  for (var i = 10; i >= 0; i--) {
+    array.add(i);
+  }
+  print(array);
+}
+
+
+//Almacene un contador regresivo en un vector, el conteo es de 10 a 0 DoWhile
+
+void main() {
+  var array = [];
+  var c = 10;
+
+  while (c >= 0) {
+    array.add(c);
+    c--;
+  }
+
+  print(array);
+}
+
+
+#### 6.4 Prueba de escritorio
 ![Prueba6](https://user-images.githubusercontent.com/113472808/190938291-fef70064-aac0-4b32-8698-f33c87e781d5.PNG)
-#### 6.4 Entradas
+#### 6.5 Entradas
 Ninguna, en este caso solo se le imparte el valor de 5 a N
-#### 6.5 Salidas 
+#### 6.6 Salidas 
 NxN
 
 ### Ejercicio 7. Almacene en un vector de tamaño 10 todos los numeros pares capturados hasta completar todos.
@@ -232,11 +376,70 @@ Se requiere un inicio, se hara una entrada de datos para saber el valor que se l
 
 ![dfd7for](https://user-images.githubusercontent.com/113472808/198164940-b6d3f792-8912-4af1-beb4-ff9d2a6d8269.png)
 
-#### 7.3 Prueba de escritorio
+#### 7.3 Codigo
+
+//Almacene en un vector de tamaño 10 todos los numeros pares capturados hasta completar todos DoWhile
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+  var c = 0;
+  do {
+    int n = int.parse(stdin.readLineSync()!);
+
+    if (n % 2 == 0) {
+      array.add(n);
+      c = c + 1;
+    }
+  } while (c <= 9);
+  print(array);
+}
+
+//Almacene en un vector de tamaño 10 todos los numeros pares capturados hasta completar todos FOR
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+
+  for (var i = 0; i <= 10; i++) {
+    int n = int.parse(stdin.readLineSync()!);
+    if (n % 2 == 0) {
+      array.add(n);
+      i = i - 1;
+    }
+  }
+  print(array);
+}
+
+
+
+//Almacene en un vector de tamaño 10 todos los numeros pares capturados hasta completar todos DoWhile
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  var array = [];
+  var c = 0;
+
+  while (c <= 10) {
+    int n = int.parse(stdin.readLineSync()!);
+    c = c + 1;
+    if (n % 2 == 0) {
+      array.add(n);
+      c = c - 1;
+    }
+  }
+  print(array);
+}
+
+
+#### 7.4 Prueba de escritorio
 ![Prueba7](https://user-images.githubusercontent.com/113472808/190938531-1b44c3a1-0af2-4a56-a858-bfa062d939ac.PNG)
-#### 7.4 Entradas
+#### 7.5 Entradas
 Se solicita el valor de N para dar paso a la operacion
-#### 7.5 Salidas
+#### 7.6 Salidas
 NxN
 
 ### Ejercicio 8. Obtenga el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificacion es entre 0 y 10 y el maximo de alumnos es 15. Indique la calificacion mas alta.
@@ -249,11 +452,146 @@ Se requiere un inicio, se hara una entrada de datos para conocer el año de naci
 
 ![dfd8for](https://user-images.githubusercontent.com/113472808/198164963-86a46873-ca5c-4bd7-924c-4aa07d3021ac.png)
 
-#### 8.3 Prueba de escritorio
+#### 8.3 Codigo
+
+/*calcule calificaciones de maximo 15 alumnos, saque promedio de aprobados
+cuantos reprobaron y la calificacion mas alta DoWhile*/
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  double proma = 0;
+  var contr = 0;
+  double sumaa = 0;
+  double conta = 0;
+  double cal1 = 0;
+  double cal2 = 1;
+  var cont = 0;
+  do {
+    double c = double.parse(stdin.readLineSync()!);
+    cont = cont + 1;
+    if (c > 10) {
+      print('la calificacion no puede ser mayor a 10');
+      cont = cont - 1;
+    }
+    if (c < 0) {
+      print('la calificacion no puede ser menor a 0');
+      cont = cont - 1;
+    }
+    if (c < 6 && c > 0) {
+      contr = contr + 1;
+    }
+    if (c <= 10 && c >= 6) {
+      cal1 = c;
+      sumaa = sumaa + cal1;
+      conta++;
+    }
+    if (cal1 > cal2) {
+      cal2 = cal1;
+    }
+  } while (cont <= 14);
+
+  proma = sumaa / conta;
+  print('el promedio de aprobados es $proma');
+  print('la calificacion mas alta es $cal2');
+  print('la cantidad de reprobados son $contr');
+}
+
+
+
+/*calcule calificaciones de maximo 15 alumnos, saque promedio de aprobados
+cuantos reprobaron y la calificacion mas alta FOR*/
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  double proma = 0;
+  var contr = 0;
+  double sumaa = 0;
+  double conta = 0;
+  double cal1 = 0;
+  double cal2 = 1;
+
+  for (var i = 1; i <= 15; i++) {
+    double c = double.parse(stdin.readLineSync()!);
+    if (c > 10) {
+      print('la calificacion no puede ser mayor a 10');
+      i = i - 1;
+    }
+    if (c < 0) {
+      print('la calificacion no puede ser menor a 0');
+      i = i - 1;
+    }
+    if (c < 6 && c > 0) {
+      contr = contr + 1;
+    }
+    if (c <= 10 && c >= 6) {
+      cal1 = c;
+      sumaa = sumaa + cal1;
+      conta++;
+    }
+    if (cal1 > cal2) {
+      cal2 = cal1;
+    }
+  }
+  proma = sumaa / conta;
+  print('el promedio de aprobados es $proma');
+  print('la calificacion mas alta es $cal2');
+  print('la cantidad de reprobados son $contr');
+}
+
+
+
+/*calcule calificaciones de maximo 15 alumnos, saque promedio de aprobados
+cuantos reprobaron y la calificacion mas alta While*/
+import 'dart:io';
+import 'dart:async';
+
+void main() {
+  double proma = 0;
+  var contr = 0;
+  double sumaa = 0;
+  double conta = 0;
+  double cal1 = 0;
+  double cal2 = 1;
+  var cont = 0;
+
+  while (cont <= 14) {
+    double c = double.parse(stdin.readLineSync()!);
+    cont = cont + 1;
+    if (c > 10) {
+      print('la calificacion no puede ser mayor a 10');
+      cont = cont - 1;
+    }
+    if (c < 0) {
+      print('la calificacion no puede ser menor a 0');
+      cont = cont - 1;
+    }
+    if (c < 6 && c > 0) {
+      contr = contr + 1;
+    }
+    if (c <= 10 && c >= 6) {
+      cal1 = c;
+      sumaa = sumaa + cal1;
+      conta++;
+    }
+    if (cal1 > cal2) {
+      cal2 = cal1;
+    }
+  }
+
+  proma = sumaa / conta;
+  print('el promedio de aprobados es $proma');
+  print('la calificacion mas alta es $cal2');
+  print('la cantidad de reprobados son $contr');
+}
+
+
+#### 8.4 Prueba de escritorio
 ![Prueba8](https://user-images.githubusercontent.com/113472808/190938716-8d8b5a2f-56ba-4eef-9429-7394177dfb6b.PNG)
-#### 8.4 Entradas
+#### 8.5 Entradas
 Se pregunta al usuario su año de nacimiento registrado como "anac"
-#### 8.5 Salidas
+#### 8.6 Salidas
 2022-anac
 
 ### Ejercicio 9.  Capture N numeros en el rango li ls donde Li=Limite inferior y Ls=limite superior para Li<ls y Li>0. Obtenga Cantidad de numeros pares y su promedio, cantidad de numeros impares y su promedio y que promedio es mayor.
@@ -265,12 +603,189 @@ Se requiere un inicio, posteriormente mediante una entrada de datos se preguntar
 ![dfd9dowhile](https://user-images.githubusercontent.com/113472808/198164989-db33bbbf-c90d-47e6-8ca6-d0c88247a254.png)
   
 ![dfd9for](https://user-images.githubusercontent.com/113472808/198164990-57298c84-3f2c-40f9-b804-9c0d05055ac1.png)
+  
+#### 9.3 Codigo
+  
+/*capture N numeros en el rango [Li,Ls] donde:
+Li=Limite inferior
+Ls=Limite superior para Li<Ls y Li>0
+obtenga:
+-cantidad de numeros pares y su promedio
+-cantidad de numeros impares y su promedio
+-que promedio es mayo?*/
 
-#### 9.3 Prueba de escritorio
+import 'dart:io';
+
+void main() {
+  double sumap = 0;
+  double sumai = 0;
+  var contp = 0;
+  var conti = 0;
+  double promp = 0;
+  double promi = 0;
+  print('Introduce el limite inferior, mayor a 0');
+  var li = int.parse(stdin.readLineSync()!);
+  if (li < 0) {
+    print('tu limite inferior debe ser mayor a 0');
+  }
+  if (li > 0) {
+    print('Ahora introduce un limite superior');
+    var ls = int.parse(stdin.readLineSync()!);
+    if (ls < li) {
+      print('tu limite superior debe ser mayor a tu limite inferior');
+    }
+    var cont = li;
+    do {
+      if (cont <= ls) {
+        sumai = sumai + cont;
+        conti = conti + 1;
+      }
+      if (cont % 2 == 0) {
+        sumap = sumap + cont;
+        contp = contp + 1;
+        sumai = sumai - cont;
+        conti = conti - 1;
+      }
+      cont = cont + 1;
+    } while (cont <= ls);
+
+    promi = sumai / conti;
+    print('los impares son $conti y su promedio es $promi');
+    promp = sumap / contp;
+    print('los pares son $contp y su promedio es $promp');
+    if (promp < promi) {
+      print('$promi es mayor');
+    }
+    if (promp > promi) {
+      print('el promedio $promp es mayor');
+    }
+  }
+}
+
+  
+  
+  
+  /*capture N numeros en el rango [Li,Ls] donde:
+Li=Limite inferior
+Ls=Limite superior para Li<Ls y Li>0
+obtenga:
+-cantidad de numeros pares y su promedio
+-cantidad de numeros impares y su promedio
+-que promedio es mayo?*/
+
+import 'dart:io';
+
+void main() {
+  double sumap = 0;
+  double sumai = 0;
+  var contp = 0;
+  var conti = 0;
+  double promp = 0;
+  double promi = 0;
+  print('Introduce el limite inferior, mayor a 0');
+  var li = int.parse(stdin.readLineSync()!);
+  if (li < 0) {
+    print('tu limite inferior debe ser mayor a 0');
+  }
+  if (li > 0) {
+    print('Ahora introduce un limite superior');
+    var ls = int.parse(stdin.readLineSync()!);
+    if (ls < li) {
+      print('tu limite superior debe ser mayor a tu limite inferior');
+    }
+
+    for (var i = li; i <= ls; i++) {
+      sumai = sumai + i;
+      conti = conti + 1;
+
+      if (i % 2 == 0) {
+        sumap = sumap + i;
+        contp = contp + 1;
+        sumai = sumai - i;
+        conti = conti - 1;
+      }
+    }
+
+    promi = sumai / conti;
+    print('los impares son $conti y su promedio es $promi');
+    promp = sumap / contp;
+    print('los pares son $contp y su promedio es $promp');
+    if (promp < promi) {
+      print('$promi es mayor');
+    }
+    if (promp > promi) {
+      print('$promp es mayor');
+    }
+  }
+}
+
+  
+  
+  /*capture N numeros en el rango [Li,Ls] donde:
+Li=Limite inferior
+Ls=Limite superior para Li<Ls y Li>0
+obtenga:
+-cantidad de numeros pares y su promedio
+-cantidad de numeros impares y su promedio
+-que promedio es mayo?*/
+
+import 'dart:io';
+
+void main() {
+  double sumap = 0;
+  double sumai = 0;
+  var contp = 0;
+  var conti = 0;
+  double promp = 0;
+  double promi = 0;
+  print('Introduce el limite inferior, mayor a 0');
+  var li = int.parse(stdin.readLineSync()!);
+  if (li < 0) {
+    print('tu limite inferior debe ser mayor a 0');
+  }
+  if (li > 0) {
+    print('Ahora introduce un limite superior');
+    var ls = int.parse(stdin.readLineSync()!);
+    if (ls < li) {
+      print('tu limite superior debe ser mayor a tu limite inferior');
+    }
+    var cont = li;
+
+    while (cont <= ls) {
+      if (cont <= ls) {
+        sumai = sumai + cont;
+        conti = conti + 1;
+      }
+      if (cont % 2 == 0) {
+        sumap = sumap + cont;
+        contp = contp + 1;
+        sumai = sumai - cont;
+        conti = conti - 1;
+      }
+      cont = cont + 1;
+    }
+    
+
+    promi = sumai / conti;
+    print('los impares son $conti y su promedio es $promi');
+    promp = sumap / contp;
+    print('los pares son $contp y su promedio es $promp');
+    if (promp < promi) {
+      print('$promi es mayor');
+    }
+    if (promp > promi) {
+      print('el promedio $promp es mayor');
+    }
+  }
+}
+
+ 
+
+#### 9.4 Prueba de escritorio
 ![Prueba9](https://user-images.githubusercontent.com/113472808/190939049-95c89175-8074-4c13-89c4-7c475d74bcbe.PNG)
-#### 9.4 Entradas
+#### 9.5 Entradas
 Se registra el año actual como "anac" y el año de nacimiento como "aact"
-#### 9.5 Salidas
+#### 9.6 Salidas
 aact-anac
 
 ### Ejercicio 10. Obtener la frecuencia de N calificaciones entre 1,10 Indique cantidad de reprobados, cantidad de aprobados, promedio de aprobados y promedio general.
