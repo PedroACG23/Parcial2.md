@@ -1062,13 +1062,13 @@ Se requiere un incio, con un proceso se hace un contador para los numeros natura
                          
 #### 14.3 Codigo
                          
-/*escriba el siguiente dibujo
-* 
-**
-***
-****
-*****
-*/
+#### /*escriba el siguiente dibujo
+#### * 
+#### **
+#### ***
+#### ****
+#### *****
+#### */
 import 'dart:io';
 
 void main() {
