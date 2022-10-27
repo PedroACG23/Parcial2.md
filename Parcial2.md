@@ -2,21 +2,31 @@
 ## Problemas resueltos en clase con Diagrama de flujo de datos
 ### Ejercicio 1. Hacer un diagrama que cuente hasta el 10 e imprima el conteo.
 #### 1.1 Analisis
-Se requiere insertar un inicio y posteriormente una salida de datos que imprima el texto "Nombre" para dar fin con el programa
+Se necesita que el programa avance del 1 al 10, mientras vaya sumando mediante un contador ir imprimiendo las salidas del contador hasta imprimir los 10 numeros.
 #### 1.2 Diagrama
-![dfd 1](https://user-images.githubusercontent.com/113472808/190933762-04b4a808-e9e3-4c71-92f9-edbd9b5458b7.png)
+![dfd1while](https://user-images.githubusercontent.com/113472808/198164691-bc7c2a8c-fd99-4bdb-8648-d6eca20adb40.png)
+
+![dfd1dowhile](https://user-images.githubusercontent.com/113472808/198164697-cb3cb421-0199-45d4-a41e-eefeb6ecc205.png)
+
+![dfd1for](https://user-images.githubusercontent.com/113472808/198164698-b41e274f-3043-4cba-b516-edf7e650b492.png)
+
 #### 1.3 Prueba de escritorio
 ![Prueba1](https://user-images.githubusercontent.com/113472808/190934123-5d7101b8-e398-423c-8488-aa24685bf4a5.PNG)
 #### 1.4 Entradas
-Ningua, solo se asigna la impresion de "Nombre"
+Ningua, solo establece un contador en 0 que vaya en aumento hasta 10
 #### 1.5 Salidas
-Nombre
+Imprime el aumento del contador. 1,2,3,4,5,6,7,8,9,10
 
 ### Ejercicio 2. Contar del 1 al 10 y sumar los valores.
 #### 2.1 Analisis
 Se requiere insertar un inicio y posteriormente una salida de datos que imprima un dia de la semana como texto "Dia" para dar fin con el programa
 #### 2.2 Diagrama
-![dfd 2](https://user-images.githubusercontent.com/113472808/190934387-22f836eb-6e76-45df-aa0c-242d0ec8c389.jpg)
+![dfd2while](https://user-images.githubusercontent.com/113472808/198164778-f3e2fcf3-63b1-43ec-9954-80a31f344aac.png)
+
+![dfd2dowhile](https://user-images.githubusercontent.com/113472808/198164779-f8df05d0-4070-46ad-bf1e-605472ee82d5.png)
+
+![dfd2for](https://user-images.githubusercontent.com/113472808/198164781-8ad2f5f0-3e9c-434f-ad28-4b5192a07236.png)
+
 #### 2.3 Prueba de escritorio
 ![Prueba2](https://user-images.githubusercontent.com/113472808/190934395-b322a5f3-69b3-4a48-bbda-c0b0133ad699.PNG)
 #### 2.4 Entradas
@@ -28,7 +38,12 @@ Lunes
 #### 3.1 Analisis
 Se requiere insertar un inicio, se pedira el nombre en un proceso para asignar la variable, imprimira "Hola Nombre" para dar fin al programa
 #### 3.2 Diagrama
-![dfd 3](https://user-images.githubusercontent.com/113472808/190934764-ff64f1c5-dc12-473d-b740-e09dd2cd1cb4.jpg)
+![dfd3while](https://user-images.githubusercontent.com/113472808/198164813-9456f675-9823-4b1f-8637-2138efcee46f.png)
+
+![dfd3dowhile](https://user-images.githubusercontent.com/113472808/198164814-b766e8ae-7214-4719-ae82-04249f659be6.png)
+
+![dfd3for](https://user-images.githubusercontent.com/113472808/198164815-62a6e6df-eec5-40d4-85e1-385b22f38ab7.png)
+
 #### 3.3 Prueba de Escritorio
 ![Prueba3](https://user-images.githubusercontent.com/113472808/190934783-b89d1853-b4ab-43c9-affc-b8ecfe692d00.PNG)
 #### 3.4 Entradas
@@ -40,7 +55,12 @@ Hola Pedro
 #### 4.1 Analisis
 Se requiere insertar un inicio, el programa preguntara el nombre al usuario, lo asignara en una entrada de datos y soltara una salida imprimiendo "Buen dia,Nom" para dar fin al programa
 #### 4.2 Diagrama
-![dfd 4](https://user-images.githubusercontent.com/113472808/190935118-912cb3bb-6365-4797-8fe6-52d7863bb308.jpg)
+![dfd4while](https://user-images.githubusercontent.com/113472808/198164856-1cb3c365-538e-41f4-8afe-755f106f4b94.png)
+
+![dfd4dowhile](https://user-images.githubusercontent.com/113472808/198164859-85c82fb9-a0c4-4bd5-a1f3-91d2bb749c2a.png)
+
+![dfd4for](https://user-images.githubusercontent.com/113472808/198164861-f4f1142a-01b5-4230-8459-bcee4f602011.png)
+
 #### 4.3 Prueba de escritorio
 ![Prueba4](https://user-images.githubusercontent.com/113472808/190936214-9e9812d1-cda7-40c5-a980-049e0c0cd13b.PNG)
 #### 4.4 Entradas
@@ -52,7 +72,12 @@ Buen dia Pedro
 #### 5.1 Analisis 
 Se requiere un inicio, para ingresar un proceso de datos para la operacion 2x2 para imprimir el resultado y dar fin al programa
 #### 5.2 Diagrama
-![dfd 5](https://user-images.githubusercontent.com/113472808/190936627-cec4d470-d3fd-4521-9b73-f67b7e185cf7.jpg)
+![dfd5while](https://user-images.githubusercontent.com/113472808/198164893-47049259-3d7d-46c3-bd32-3e6da32f516e.png)
+
+![dfd5dowhile](https://user-images.githubusercontent.com/113472808/198164894-4579bde0-318a-45b9-829a-230bc2a45121.png)
+
+![dfd5for](https://user-images.githubusercontent.com/113472808/198164895-ec6fd128-cd68-477c-b376-c07897cce463.png)
+
 #### 5.3 Prueba de escritorio
 ![Prueba5](https://user-images.githubusercontent.com/113472808/190936639-8b5e7f29-d8ee-477c-835b-0f9d3f9f9726.PNG)
 #### 5.4 Entradas
@@ -64,7 +89,12 @@ Ninguna solo se realiza el proceso 2x2
 #### 6.1 Analisis
 Se requiere un inicio, para ingresar el valor de N que sera de 5, posteriomente un proceso donde se saque su cuadrado con NxN para despues dar fin al programa
 #### 6.2 Diagrama
-![dfd 6](https://user-images.githubusercontent.com/113472808/190938266-29e269f7-e5ce-45e4-a663-7951dabb3f3d.jpg)
+![dfd6while](https://user-images.githubusercontent.com/113472808/198164913-883e216b-1cc5-4500-9f26-1f846da589a4.png)
+
+![dfd6dowhile](https://user-images.githubusercontent.com/113472808/198164916-f55674f8-5948-4ae2-8a16-b4f5e4ad4b41.png)
+
+![dfd6for](https://user-images.githubusercontent.com/113472808/198164917-df10bffa-3cb3-4bad-9be7-48e0c503330f.png)
+
 #### 6.3 Prueba de escritorio
 ![Prueba6](https://user-images.githubusercontent.com/113472808/190938291-fef70064-aac0-4b32-8698-f33c87e781d5.PNG)
 #### 6.4 Entradas
@@ -76,7 +106,12 @@ NxN
 #### 7.1 Analisis
 Se requiere un inicio, se hara una entrada de datos para saber el valor que se le dara a N y posteriormente se hara un proceso de datos para sacar su cuadrado mediante NxN para dar fin al programa.
 #### 7.2 Diagrama
-![dfd 7](https://user-images.githubusercontent.com/113472808/190938513-d062cebd-062a-4671-a71b-54cc9d0cc237.jpg)
+![dfd7while](https://user-images.githubusercontent.com/113472808/198164938-3b43779c-f1cd-4635-94b3-33d367b69935.png)
+
+![dfd7dowhile](https://user-images.githubusercontent.com/113472808/198164939-bc3a6455-8a8f-4354-9eb9-60807cb8e52b.png)
+
+![dfd7for](https://user-images.githubusercontent.com/113472808/198164940-b6d3f792-8912-4af1-beb4-ff9d2a6d8269.png)
+
 #### 7.3 Prueba de escritorio
 ![Prueba7](https://user-images.githubusercontent.com/113472808/190938531-1b44c3a1-0af2-4a56-a858-bfa062d939ac.PNG)
 #### 7.4 Entradas
@@ -88,7 +123,12 @@ NxN
 #### 8.1 Analisis
 Se requiere un inicio, se hara una entrada de datos para conocer el año de nacimiento del usuario, posteriormente se hara un proceso para calcular su edad restando a 2022 el año de nacimiento de la persona, para despues dar fin al programa.
 #### 8.2 Diagrama
-![dfd 8](https://user-images.githubusercontent.com/113472808/190938702-9e14ccb2-de84-4b85-85e8-f385b68505cc.jpg)
+![dfd8while](https://user-images.githubusercontent.com/113472808/198164957-56ab69e6-c7df-40a4-b30f-e598c013c174.png)
+
+![dfd8dowhile](https://user-images.githubusercontent.com/113472808/198164960-da1638e1-6fa9-4f41-9b48-95faa5c54e17.png)
+
+![dfd8for](https://user-images.githubusercontent.com/113472808/198164963-86a46873-ca5c-4bd7-924c-4aa07d3021ac.png)
+
 #### 8.3 Prueba de escritorio
 ![Prueba8](https://user-images.githubusercontent.com/113472808/190938716-8d8b5a2f-56ba-4eef-9429-7394177dfb6b.PNG)
 #### 8.4 Entradas
@@ -100,7 +140,12 @@ Se pregunta al usuario su año de nacimiento registrado como "anac"
 #### 9.1 Analisis
 Se requiere un inicio, posteriormente mediante una entrada de datos se preguntara el año de nacimiento registrado como anac y el año actual registrado como aact, para despues sacar la edad de la persona calculando la resta de aact-anac para dar fin al programa
 #### 9.2 Diagrama
-![dfd 9](https://user-images.githubusercontent.com/113472808/190938935-8a0e0886-2485-4244-b746-5c57c0a510bd.jpg)
+![dfd9while](https://user-images.githubusercontent.com/113472808/198164987-12368753-6e1f-423e-8dac-da4c5239b8bd.png)
+  
+![dfd9dowhile](https://user-images.githubusercontent.com/113472808/198164989-db33bbbf-c90d-47e6-8ca6-d0c88247a254.png)
+  
+![dfd9for](https://user-images.githubusercontent.com/113472808/198164990-57298c84-3f2c-40f9-b804-9c0d05055ac1.png)
+
 #### 9.3 Prueba de escritorio
 ![Prueba9](https://user-images.githubusercontent.com/113472808/190939049-95c89175-8074-4c13-89c4-7c475d74bcbe.PNG)
 #### 9.4 Entradas
@@ -112,7 +157,12 @@ aact-anac
 #### 10.1 Analisis
 Se requiere un inicio, mediante una entrada de datos se pediira un numero y posteriormente otro para despues en un proceso sacar el cuadrado de la suma de esos 2 para dar fin al programa
 #### 10.2 Diagrama
-![dfd 10](https://user-images.githubusercontent.com/113472808/190939699-b25a989b-6208-4201-ac62-52a4a0f867c1.jpg)
+![dfd10dowhile](https://user-images.githubusercontent.com/113472808/198165017-150285fe-bcd2-4d4c-8c78-7a44adf945dd.png)
+  
+![dfd10for](https://user-images.githubusercontent.com/113472808/198165018-c6e0e767-2144-40ed-88ab-72cede70fb7a.png)
+  
+![dfd10while](https://user-images.githubusercontent.com/113472808/198165020-0ad0640b-5511-4d51-bb02-5e801a873b09.png)
+
 #### 10.3 Prueba de escritorio
 ![Prueba10](https://user-images.githubusercontent.com/113472808/190939857-ec4ae301-666c-4218-9937-02c185c1a5d6.PNG)
 #### 10.4 Entradas
@@ -124,7 +174,8 @@ Se piden 2 numeros registrados con las variables n1 y n2 respectivamente
 #### 11.1 Analisis
 Se requiere un inicio, en esta ocasion se hara una entrada de datos que registrara el año actual de la persona y su año de nacimiento, posteriormente se comprobara si el año actual de la persona es superior al de nacimiento, si la condicion no se cumple regresara a pedir nuevamente el año actual siendo mayor que el de nacimiento, en caso de que si se cumple se realizara un proceso para saber la edad restando el año de nacimiento al año actual para dar fin al programa
 #### 11.2 Diagrama
-![dfd 11](https://user-images.githubusercontent.com/113472808/190940329-0836bbb4-c825-4725-bb29-fc930f7a3993.jpg)
+![dfd11for](https://user-images.githubusercontent.com/113472808/198165097-466a6bbb-1a9b-4966-81b1-f25e6d64ed5e.png)
+
 #### 11.3 Prueba de escritorio
 ![Prueba11](https://user-images.githubusercontent.com/113472808/190941349-7519dcdf-3ba7-43b8-8821-1762a7712014.PNG)
 #### 11.4 Entradas
@@ -136,7 +187,8 @@ aact-anac
 #### 12.1 Analisis
 Se requiere un inicio, se le pedira al usuario su año de nacimiento y se comprobara que sea mayor a 0 si la condicion se cumple le pedira el año de actual mayor al año nacimiento, si se cumple la condicion se genera un proceso de operacion para calcular la edad aact-anac para dar fin al programa
 #### 12.2 Diagrama
-![dfd 12](https://user-images.githubusercontent.com/113472808/190942454-b638aec7-a8bf-407e-bd72-68dade1a1de0.jpg)
+![dfd12for](https://user-images.githubusercontent.com/113472808/198165127-f751b4a5-7ad2-400f-a298-d27faecb2784.png)
+
 #### 12.3 Prueba de escritorio
 ![Prueba 12](https://user-images.githubusercontent.com/113472808/190944120-343a39aa-7733-4640-9ba0-58b9ec09dab7.PNG)
 #### 12.4 Entradas
@@ -148,7 +200,8 @@ aact-anac
 #### 13.1 Analisis
 Se requiere un inicio, se programa un contador en un proceso y se imprime, mediante una condicion se espera que sea 10, en caso no ser 10 el contador aumenta en 1 y regresa a repetir el proceso, una vez el valor sea 10 imprime los 10 numeros para dar fin al programa
 #### 13.2 Diagrama
-![dfd 13](https://user-images.githubusercontent.com/113472808/190945068-d9483cd8-1b7e-4104-9416-878c565cab0f.jpg)
+![dfd13for](https://user-images.githubusercontent.com/113472808/198165156-4b06b734-fdad-4b51-a935-222e088e1955.png)
+
 #### 13.3 Prueba de escritorio
 ![image](https://user-images.githubusercontent.com/113472808/190945543-cd75ca9b-3bc1-4131-b1d2-9f890305610f.png)
 #### 13.4 Entradas
@@ -165,7 +218,8 @@ Ninguna se crea un proceso con un contador en sumatoria
 #### 14.2 Analisis
 Se requiere un incio, con un proceso se hace un contador para los numeros naturales hasta el 10 y con el otro para el proceso de la suma, empiezan los procesos de la suma + el contador para entrar en una condicion, si el resultado es menor a 10 aumenta el contador y regresa a la suma, cuando el resultado ya sea 10 imprime el resultado de las sumas para dar fin al programa.
 #### 14.2 Diagrama
-![dfd 14](https://user-images.githubusercontent.com/113472808/190945919-0ea47a8d-2f4c-4f38-93f4-ca8675f05fe2.jpg)
+![dfd14for](https://user-images.githubusercontent.com/113472808/198165170-fdf77ac5-635e-47ed-84ed-f1f24adbd61a.png)
+
 #### 14.3 Prueba de escritorio
 ![image](https://user-images.githubusercontent.com/113472808/190950119-ce00b111-f12c-41dc-84ba-efead85e8e82.png)
 #### 14.4 Entradas
@@ -173,88 +227,5 @@ Se establecen un contador en C y se guarda el registro de la suma en S
 #### 14.5 Salida
 S
 
-### Ejercicio 15. Generar los numeros pares del 1 al 10
-#### 15.1 Analisis 
-Se requiere un inicio, se crea un contador en 1 y se hace un proceso de multiplicacion x2 hasta que de una condicion que el numero sea igual a 10, en caso de no ser asi regresa al contador y vuelve a hacer la operacion para dar fin al programa una vez llegado a 10
-#### 15.2 Diagrama
-![dfd 15](https://user-images.githubusercontent.com/113472808/190946222-3a703bde-94de-4a34-845a-d2a56d4f4af7.jpg)
-#### 15.3 Prueba de escritorio
-![image](https://user-images.githubusercontent.com/113472808/190950282-948da3fb-ce0b-421b-9d80-e1831038c6ff.png)
-#### 15.4 Entradas
-Se inicia un contador C = 1 y el resultado de los procesos en S
-#### 15.5 Salidas
-2,4,6,8,10
-
-### Ejercicio 16. Capture N numeros positivos e imprima solamente la suma de los pares
-#### 16.1 Analisis
-Se requiere un inicio, se crea un proceso con un contador en 1 y una suma para los pares en 0, pregunta al usuario los digitos mediante una entrada de datos, una condicion asegura que sean numeros positivos preguntando si es mayor a 0, posteriormente pide la entrada de los numeros C de N, comprueba que sea mayor a 0 una condicion y de ser asi con un mod verifica que sea par, si es asi la suma aumenta en uno y el contador aumenta en 1 gasta que se llegue al numero digitado, imprime la suma total de los pares y finaliza el programa.
-#### 16.2 Diagrama
-![dfd 16](https://user-images.githubusercontent.com/113472808/190946760-999ce64c-5c61-4fc6-9b66-f117cd845b5a.jpg)
-#### 16.3 Prueba de escritorio
-![image](https://user-images.githubusercontent.com/113472808/190950655-f83e911e-4696-408c-8d9e-36a8349391d2.png)
-#### 16.4 Entradas
-Se genera un contado en C y la suma de los pares en SP, posteriormente pide el numero en N, y el numero de C para N se registra en V
-#### 16.5 Salidas
-SP
-
-### Ejercicio 17. Diga si un numero capturado es par o impar
-#### 17.1 Analisis
-Se requiere un inicio Se pide que se digite un numero en una entradad de datos, una condicion comprueba que sea positivo mediante un <0, posteriormente se hace un MOD para que N%2=0 si esto se cumple el numero es par y si no imprime que es impar, para dar fin al prgrama
-#### 17.2 Diagrama
-![dfd 17](https://user-images.githubusercontent.com/113472808/190947621-365698f5-3074-41ce-bb47-7e45cf4de247.jpg)
-#### 17.3 Prueba de escritorio
-![image](https://user-images.githubusercontent.com/113472808/190950757-c3f8b359-d420-4a52-9870-dcbc143695bf.png)
-#### 17.4 Entradas
-Se registra el numero pedido como N
-#### 17.5 Salidas
-"Es par" o "Es impar"
-
-### 18. Diga si un numero digitado es mayor a 10
-#### 18.1
-Se requiere un inicio, se pregunta un digito al usuario guardado como N despues se crea una condicion para saber si es menor a 10, en caso de ser asi el numero es menor a 10, de no ser asi imprime que es mayor para dar fin al programa
-#### 18.2 Diagrama
-![dfd 18](https://user-images.githubusercontent.com/113472808/190948392-fd90405c-d3ac-4a7a-903b-ae30620570f9.jpg)
-#### 18.3 Prueba de escritorio
-![image](https://user-images.githubusercontent.com/113472808/190950932-e6328f7c-cb2c-458c-a853-68f0cd8c2b4b.png)
-#### 18.4 Entradas
-Ninguna, solo se pide el digito de N para comprobar si es mayor a 10
-#### 18.5 Salidas
-"Es menor a 10" o "Es mayor a 10"
-
-### Ejercicio 19. haga un algoritmo para saber cuanto me falta para llegar a 10
-#### 19.1 Analisis
-Se requiere un inicio se pide insertar un numero que sera comprobado con una condicion si es mayor a 10 en caso no ser asi se resta al numero introducido e imprime la cantidad restante, en caso de ser mayor al digito se le resta 10 e imprime por cuanto te pasaste, para dar fin al programa.
-#### 19.2 Diagrama
-![dfd 19](https://user-images.githubusercontent.com/113472808/190948726-0952217e-e248-40a1-9552-0d393f8f038a.jpg)
-#### 19.3 Prueba de escritorio
-![image](https://user-images.githubusercontent.com/113472808/190951117-d9036581-2ea0-40ca-8189-0b8973727bd2.png)
-#### 19.4 Entradas
-Se asigna el valor de N en 0 para pedir el numero digitado en num.
-#### 19.5 Salidas
-"Te falta N para llegar a 10" o "Te pasaste por N"
-
-### 20. Capture N numeros, diga cuantos son positvos y cuantos son negativos, 0 para finalizar
-#### 20.1 Analisis
-Se requiere un inicio se pone un proceso con los contadores de los positivos y los negativos, para pedir un numero al usuario mediante una entrada de datos, se comprueba en una condicion si el num es 0 para finalizar, de no ser asi, se comprueba si es mayor o menor a 0 y sumar el contador ya sea de los positivos o los negativos hasta que se capture el 0 para imprmir el contador total para dar fin al programa
-#### 20.2 Diagrama
-![dfd 20](https://user-images.githubusercontent.com/113472808/190949282-6e0883ef-40a3-4d2b-884d-c333899757bc.jpg)
-#### 20.3 Prueba de escritorio
-![image](https://user-images.githubusercontent.com/113472808/190951300-2aa3ff73-e95b-4bb0-8880-e89504263941.png)
-#### 20.4 Entradas
-Cp para contador positivos Cn para contador negativos se pregunta por el numero como num
-#### 20.5 salida
-Positivos Cp y Negativos Cn
-
-### 21. Capturar un numero positivo o negativo, 0 para terminar, contar del 0 hasta ese numero
-#### 21.1 Analisis
-Se requiere un inicio, se pide el numero al usuario mediante una entrada de datos y se comprueba si es positivo o negrativo en una condicion, si es negativo el contador aumenta en uno y genera un bucle hasta que el contador de como suma el resultado del numero, lo mismo si es negativo, una vez terminado lo imprime para dar fin al programa.
-#### 21.2 Diagrama
-![dfd 21](https://user-images.githubusercontent.com/113472808/190949622-3a954e4b-8b8c-4940-a69a-8745b0a3084a.jpg)
-#### 21.3 Prueba de escritorio
-![image](https://user-images.githubusercontent.com/113472808/190951500-fcda677b-a4d0-44da-8f54-74f857ab06ae.png)
-#### 21.4 Entradas
-Se establece un cont y se pide un numero registrado en num
-#### 21.5 Salidas
-cont=num
 
 # FIN
