@@ -1082,11 +1082,11 @@ void main() {
 }
 
 
-#### 14.3 Prueba de escritorio
+#### 14.4 Prueba de escritorio
 ![image](https://user-images.githubusercontent.com/113472808/190950119-ce00b111-f12c-41dc-84ba-efead85e8e82.png)
-#### 14.4 Entradas
+#### 14.5 Entradas
 Se establecen un contador en C y se guarda el registro de la suma en S
-#### 14.5 Salida
+#### 14.6 Salida
 S
 
 
