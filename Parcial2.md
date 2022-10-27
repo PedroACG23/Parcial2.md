@@ -1041,7 +1041,7 @@ Almacenar los 10 numeros positivos [4 6 2 5 0 8 4 6 5 2] sacar las distacias y d
 
 ### Ejercicio 13. Almacene en un array el resultado de una tabla de multiplicar (10 numeros)
 #### 13.1 Analisis
-
+Poner un numero "5" para sacar en un array de [10] su tabla de multiplicar, la multiplicacion en ascenso hasta 10. [5,10,15,20,25,30,35,40,45,50]
 #### 13.2 Diagrama
 ![dfd13for](https://user-images.githubusercontent.com/113472808/198165156-4b06b734-fdad-4b51-a935-222e088e1955.png)
   
@@ -1065,9 +1065,9 @@ void main() {
 #### 13.4 Prueba de escritorio
 ![image](https://user-images.githubusercontent.com/113472808/190945543-cd75ca9b-3bc1-4131-b1d2-9f890305610f.png)
 #### 13.5 Entradas
-Ninguna se crea un proceso con un contador en sumatoria
+Ingresar el numero para sacar su tabla de multiplicar 5
 #### 13.6 Salidas
-1,2,3,4,5,6,7,8,9,10
+[5,10,15,20,25,30,35,40,45,50]
 
 ### Ejercicio 14. Imprimir el siguiente dibujo
 ### *
@@ -1076,7 +1076,7 @@ Ninguna se crea un proceso con un contador en sumatoria
 ### ****
 ### *****
 #### 14.2 Analisis
-Se requiere un incio, con un proceso se hace un contador para los numeros naturales hasta el 10 y con el otro para el proceso de la suma, empiezan los procesos de la suma + el contador para entrar en una condicion, si el resultado es menor a 10 aumenta el contador y regresa a la suma, cuando el resultado ya sea 10 imprime el resultado de las sumas para dar fin al programa.
+Imprimir un * hasta que se completen 5 mientras vaya saltando una linea.
 #### 14.2 Diagrama
 ![dfd14for](https://user-images.githubusercontent.com/113472808/198165170-fdf77ac5-635e-47ed-84ed-f1f24adbd61a.png)
                          
@@ -1105,9 +1105,13 @@ void main() {
 #### 14.4 Prueba de escritorio
 ![image](https://user-images.githubusercontent.com/113472808/190950119-ce00b111-f12c-41dc-84ba-efead85e8e82.png)
 #### 14.5 Entradas
-Se establecen un contador en C y se guarda el registro de la suma en S
+Ninguna, se imprime el * y va saliendo cada linea de *
 #### 14.6 Salida
-S
+#### * 
+#### **
+#### ***
+#### ****
+#### *****
 
 
 # FIN
