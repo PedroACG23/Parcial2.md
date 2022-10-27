@@ -61,11 +61,53 @@ Se requiere insertar un inicio y posteriormente una salida de datos que imprima 
 
 ![dfd2for](https://user-images.githubusercontent.com/113472808/198164781-8ad2f5f0-3e9c-434f-ad28-4b5192a07236.png)
 
-#### 2.3 Prueba de escritorio
+#### 2.5 Codigo
+//Contar del 1 al 10 y sumar los valores DoWhile
 
-#### 2.4 Entradas
+void main() {
+  var suma = 0;
+  int cont = 1;
+
+  do {
+    suma = suma + cont;
+    cont = cont + 1;
+  } while (cont <= 10);
+
+  print(suma);
+}
+
+
+//Contar del 1 al 10 y sumar los valores FOR
+
+void main() {
+  var Suma = 0;
+  for (var i = 1; i <= 10; i++) {
+    Suma = Suma + i;
+  }
+  print(Suma);
+}
+
+
+//Contar del 1 al 10 y sumar los valores While
+
+void main() {
+  int suma = 0;
+  int cont = 1;
+
+  while (cont <= 10) {
+    suma = suma + cont;
+    cont = cont + 1;
+  }
+
+  print(suma);
+}
+
+
+#### 2.4 Prueba de escritorio
+
+#### 2.5 Entradas
 Ninguna, solo se asigna la impresion de "Lunes"
-#### 2.5 Salidas
+#### 2.6 Salidas
 Lunes
 
 ### Ejercicio 3. Obtenga la suma de los primeros 5 numeros pares.
@@ -78,11 +120,55 @@ Se requiere insertar un inicio, se pedira el nombre en un proceso para asignar l
 
 ![dfd3for](https://user-images.githubusercontent.com/113472808/198164815-62a6e6df-eec5-40d4-85e1-385b22f38ab7.png)
 
-#### 3.3 Prueba de Escritorio
+#### 3.3 Codigo
+//calcular la suma de los primeros 5 numeros pares DoWhile
+
+void main() {
+  int suma = 0;
+  int cont = 1;
+
+  do {
+    suma = suma + cont * 2;
+    cont = cont + 1;
+  } while (cont <= 5);
+
+  print(suma);
+}
+
+
+//Obtenga la suma de los primeros 5 numeros pares For
+
+void main() {
+  int suma = 0;
+
+  for (var i = 2; i <= 10; i += 2) {
+    suma = suma + i;
+  }
+
+  print(suma);
+}
+
+
+//Calcular la suma de los primeros 5 numeros pares While
+
+void main() {
+  int suma = 0;
+  int cont = 1;
+
+  while (cont <= 5) {
+    suma = suma + cont * 2;
+    cont = cont + 1;
+  }
+
+  print(suma);
+}
+
+
+#### 3.4 Prueba de Escritorio
 ![Prueba3](https://user-images.githubusercontent.com/113472808/190934783-b89d1853-b4ab-43c9-affc-b8ecfe692d00.PNG)
-#### 3.4 Entradas
+#### 3.5 Entradas
 Ninguna, solo se asigna una cadena con el Nombre para posteriormente imprimir el mensaje "Hola,Nombre" para dar fin al programa
-#### 3.5 Salidas
+#### 3.6 Salidas
 Hola Pedro
 
 ### Ejercicio 4. Almacena en un array el numero N leido del teclado, el tamaño del array es 10.
