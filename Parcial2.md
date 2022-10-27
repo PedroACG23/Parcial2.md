@@ -111,6 +111,13 @@ void main() {
 
 #### 2.4 Prueba de escritorio
 
+![image](https://user-images.githubusercontent.com/113472808/198338067-215e9e57-640b-4489-8f9d-da8d571f279c.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338082-1309dd06-42ef-4707-a226-fc847d748e45.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338100-7d927164-3fca-489c-8d26-bd894498bf8b.png)
+
+
 #### 2.5 Entradas
 Ninguna, solo se establece un contador, y posteriormente una suma que guarde cada numero que va imprimiendo el contador y lo sume con el siguiente
 #### 2.6 Salidas
@@ -171,7 +178,14 @@ void main() {
 
 
 #### 3.4 Prueba de Escritorio
-![Prueba3](https://user-images.githubusercontent.com/113472808/190934783-b89d1853-b4ab-43c9-affc-b8ecfe692d00.PNG)
+
+![image](https://user-images.githubusercontent.com/113472808/198338156-33eb6d41-1f1a-48d3-ac26-d7f7bc0901d1.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338175-fc0faeb3-f068-40eb-ad4f-34ce1495dde4.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338192-62df15b9-e8d7-43a6-8d17-462db7f0857e.png)
+
+
 #### 3.5 Entradas
 Ninguna, el contador establece un conteo consecutivo, detecta si un numero es par, y en caso de ser par lo va sumando en una suma.
 #### 3.6 Salidas
@@ -237,7 +251,13 @@ void main() {
 
 
 #### 4.4 Prueba de escritorio
-![Prueba4](https://user-images.githubusercontent.com/113472808/190936214-9e9812d1-cda7-40c5-a980-049e0c0cd13b.PNG)
+
+![image](https://user-images.githubusercontent.com/113472808/198338244-ed747bed-59fe-4d2e-a83c-86cea66a7ca9.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338256-bb859094-9576-498b-bcf7-98509d41cd0c.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338270-a0242db8-b83a-46fc-8e6c-d96f673d7e84.png)
+
 #### 4.5 Entradas
 Se crea un array de 10, y se almacena el numero N "5" por ejemplo
 #### 4.6 Salidas
@@ -306,7 +326,14 @@ void main() {
 
 
 #### 5.4 Prueba de escritorio
-![Prueba5](https://user-images.githubusercontent.com/113472808/190936639-8b5e7f29-d8ee-477c-835b-0f9d3f9f9726.PNG)
+
+![image](https://user-images.githubusercontent.com/113472808/198338395-61039f54-c283-4298-bbed-63a0aaaec47b.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338409-4e8887da-adc6-4914-8daa-9b8aab833ec7.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338421-f5e1ad3b-d565-4841-87f4-58d1c7d58ec8.png)
+
+
 #### 5.5 Entradas
 Ingresamos n numeros hasta completar 10. 2 4 7 5 78 10 2 53 2 6
 #### 5.6
@@ -366,7 +393,14 @@ void main() {
 
 
 #### 6.4 Prueba de escritorio
-![Prueba6](https://user-images.githubusercontent.com/113472808/190938291-fef70064-aac0-4b32-8698-f33c87e781d5.PNG)
+
+![image](https://user-images.githubusercontent.com/113472808/198338485-b08abee7-f19c-4c3e-ba4f-37860a3671fd.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338498-5e9eba3b-26ac-4a07-bf9e-8515928a88df.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338518-8f67d747-35c8-4fcc-8ae9-9ea2370831f6.png)
+
+
 #### 6.5 Entradas
 Ninguna, se crea un contador en 10 y un array que almacene los 11 numeros.
 #### 6.6 Salidas 
@@ -442,7 +476,14 @@ void main() {
 
 
 #### 7.4 Prueba de escritorio
-![Prueba7](https://user-images.githubusercontent.com/113472808/190938531-1b44c3a1-0af2-4a56-a858-bfa062d939ac.PNG)
+
+![image](https://user-images.githubusercontent.com/113472808/198338655-b374ad0c-6626-4836-8c0d-651f9369151b.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338668-698ecf2c-eb28-4b13-9451-ea5bca839e63.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338684-511cfb4a-1b6b-4458-8a3b-1dc39d91a467.png)
+
+
 #### 7.5 Entradas
 Insertar la cantidad de N numeros hasta que se complete el vector que almacenara solo los N numeros pares hasta haber leido 10. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
 #### 7.6 Salidas
@@ -594,7 +635,13 @@ void main() {
 
 
 #### 8.4 Prueba de escritorio
-![Prueba8](https://user-images.githubusercontent.com/113472808/190938716-8d8b5a2f-56ba-4eef-9429-7394177dfb6b.PNG)
+
+![image](https://user-images.githubusercontent.com/113472808/198338766-23856ed8-b01c-461a-afa4-32b0b38ea02e.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338790-2dbe720d-e733-4b17-ad63-2a6ae749de65.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338821-e638cd24-4dbf-40a8-8f45-4ab70a259a2b.png)
+
 #### 8.5 Entradas
 5 8 6 9 7 5 8 4 5 10 4 9 7 8 9 
 #### 8.6 Salidas
@@ -788,7 +835,13 @@ void main() {
  
 
 #### 9.4 Prueba de escritorio
-![Prueba9](https://user-images.githubusercontent.com/113472808/190939049-95c89175-8074-4c13-89c4-7c475d74bcbe.PNG)
+
+![image](https://user-images.githubusercontent.com/113472808/198338897-967e07d6-71d1-488d-ae9d-cc46e55520ce.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338946-7c974e9d-e67d-4e4b-8805-7382bb70bce8.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198338979-a632872b-9ffc-4c5a-a18e-7488f6160bb2.png)
+  
 #### 9.5 Entradas
 Capturar los limites ejemplo establecer el limite inferior 2 y superior 7
 #### 9.6 Salidas
@@ -910,7 +963,9 @@ void main() {
 
 
 #### 10.4 Prueba de escritorio
-![Prueba10](https://user-images.githubusercontent.com/113472808/190939857-ec4ae301-666c-4218-9937-02c185c1a5d6.PNG)
+                
+
+
 #### 10.5 Entradas
 5 4 7 7 8 9 4 10 10 10 
 #### 10.5 Salidas
