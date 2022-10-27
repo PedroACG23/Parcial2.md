@@ -797,10 +797,115 @@ Se requiere un inicio, mediante una entrada de datos se pediira un numero y post
 ![dfd10for](https://user-images.githubusercontent.com/113472808/198165018-c6e0e767-2144-40ed-88ab-72cede70fb7a.png)
   
 ![dfd10while](https://user-images.githubusercontent.com/113472808/198165020-0ad0640b-5511-4d51-bb02-5e801a873b09.png)
+  
+#### 10.3 Codigo
+  
+  /*obtener la frecuencia de N calificaciones entre [1,10]
+indique cantidad de reprobados, cantidad de aprobados,
+promedio de aprobados y promedio general FOR*/
+import 'dart:io';
 
-#### 10.3 Prueba de escritorio
+void main() {
+  var contr = 0;
+  var conta = 0;
+  var contt = 0;
+  double sumag = 0;
+  double sumaa = 0;
+  double promg = 0;
+  double porma = 0;
+  var C0 = 0;
+  var C1 = 0;
+  var C2 = 0;
+  var C3 = 0;
+  var C4 = 0;
+  var C5 = 0;
+  var C6 = 0;
+  var C7 = 0;
+  var C8 = 0;
+  var C9 = 0;
+  var C10 = 0;
+
+  print('inserta las 10 calificaciones entera positiva, entre 1 y 10');
+  for (var i = 0; i <= 9; i++) {
+    int c = int.parse(stdin.readLineSync()!);
+
+    if (c > 11) {
+      print('La calificacion debe ser menor a 10');
+      i = i--;
+    }
+    if (c < 0) {
+      print('la calificacion debe ser mayor a 0');
+      i = i--;
+    }
+    if (c == 0) {
+      C0 = C0 + 1;
+    }
+    if (c == 1) {
+      C1 = C1 + 1;
+    }
+    if (c == 2) {
+      C2 = C2 + 1;
+    }
+    if (c == 3) {
+      C3 = C3 + 1;
+    }
+    if (c == 4) {
+      C4 = C4 + 1;
+    }
+    if (c == 5) {
+      C5 = C5 + 1;
+    }
+    if (c == 6) {
+      C6 = C6 + 1;
+    }
+    if (c == 7) {
+      C7 = C7 + 1;
+    }
+    if (c == 8) {
+      C8 = C8 + 1;
+    }
+    if (c == 9) {
+      C9 = C9 + 1;
+    }
+    if (c == 10) {
+      C10 = C10 + 1;
+    }
+    if (c < 11 && c >= 0) {
+      if (c >= 6) {
+        conta = conta + 1;
+        sumaa = sumaa + c;
+      }
+      if (c < 6) {
+        contr = contr + 1;
+      }
+      sumag = sumag + c;
+    }
+  }
+  porma = sumaa / conta;
+  contt = conta + contr;
+  promg = sumag / contt;
+
+  print('La frecuencia de 0 es $C0');
+  print('La frecuencia de 1 es $C1');
+  print('La frecuencia de 2 es $C2');
+  print('La frecuencia de 3 es $C3');
+  print('La frecuencia de 4 es $C4');
+  print('La frecuencia de 5 es $C5');
+  print('La frecuencia de 6 es $C6');
+  print('La frecuencia de 7 es $C7');
+  print('La frecuencia de 8 es $C8');
+  print('La frecuencia de 9 es $C9');
+  print('La frecuencia de 10 es $C10');
+  print('Cantidad de reprobados $contr');
+  print('cantidad de aprovaodos $conta');
+  print('promedio general $promg');
+  print('promedio aprobados $porma');
+}
+
+
+#### 10.4 Prueba de escritorio
 ![Prueba10](https://user-images.githubusercontent.com/113472808/190939857-ec4ae301-666c-4218-9937-02c185c1a5d6.PNG)
-#### 10.4 Entradas
+#### 10.5 Entradas
 Se piden 2 numeros registrados con las variables n1 y n2 respectivamente
 #### 10.5 Salidas
 (n1+n2)x(n1+n2)
@@ -810,12 +915,52 @@ Se piden 2 numeros registrados con las variables n1 y n2 respectivamente
 Se requiere un inicio, en esta ocasion se hara una entrada de datos que registrara el año actual de la persona y su año de nacimiento, posteriormente se comprobara si el año actual de la persona es superior al de nacimiento, si la condicion no se cumple regresara a pedir nuevamente el año actual siendo mayor que el de nacimiento, en caso de que si se cumple se realizara un proceso para saber la edad restando el año de nacimiento al año actual para dar fin al programa
 #### 11.2 Diagrama
 ![dfd11for](https://user-images.githubusercontent.com/113472808/198165097-466a6bbb-1a9b-4966-81b1-f25e6d64ed5e.png)
+                
+#### 11.3 Codigo
+                
+/*Diagrama que capture 10 numeros enteros positivos y los ponga en un vector
+diga cual es mayor FOR*/
 
-#### 11.3 Prueba de escritorio
+import 'dart:io';
+
+void main() {
+  var num = [];
+  var mayor = 0;
+  var menor = 0;
+  for (var i = 0; i <= 9; i++) {
+    int n = int.parse(stdin.readLineSync()!);
+    if (n > 0) {
+      num.add(n);
+      if (n < 0) {
+        print('el numero debe ser positivo');
+        i = i - 1;
+      }
+    }
+  }
+  print(num);
+  for (var i = 0; i <= 9; i++) {
+    if (mayor < num[i]) {
+      mayor = num[i];
+    }
+  }
+  print('el numero mayor es $mayor');
+  menor = mayor;
+  for (var i = 0; i <= 9; i++) {
+    if (menor > num[i]) {
+      menor = num[i];
+    }
+  }
+  print('el numero menor es $menor');
+}
+
+
+#### 11.4 Prueba de escritorio
 ![Prueba11](https://user-images.githubusercontent.com/113472808/190941349-7519dcdf-3ba7-43b8-8821-1762a7712014.PNG)
-#### 11.4 Entradas
+                
+                
+#### 11.5 Entradas
 Se pregunta al usuario su año actual como "aact" y posteriormente su año de nacimiento como "anac" luego se hace una operacion para calcular la edad
-#### 11.5 Salidas
+#### 11.6 Salidas
 aact-anac
 
 ### Ejercicio 12. Obtener la distancia mayor de 2 numeros consecutivos en una lista de 10 vectores.
@@ -823,6 +968,49 @@ aact-anac
 Se requiere un inicio, se le pedira al usuario su año de nacimiento y se comprobara que sea mayor a 0 si la condicion se cumple le pedira el año de actual mayor al año nacimiento, si se cumple la condicion se genera un proceso de operacion para calcular la edad aact-anac para dar fin al programa
 #### 12.2 Diagrama
 ![dfd12for](https://user-images.githubusercontent.com/113472808/198165127-f751b4a5-7ad2-400f-a298-d27faecb2784.png)
+                
+                
+#### 12.3 Codigo
+                
+//obtener la distancia mayor de 2 numeros consecutivos en una lista de 10 vectores FOR
+import 'dart:io';
+
+void main() {
+  var num = [];
+  var d = [];
+  var dis = 0;
+  var mayor = 0;
+
+  for (var i = 0; i <= 9; i++) {
+    int n = int.parse(stdin.readLineSync()!);
+    if (n < 0) {
+      print('el numero no debe ser negativo');
+      i = i--;
+    }
+    if (n > 0) {
+      num.add(n);
+    }
+  }
+  print('los numeros son $num');
+  for (var i = 0; i < 9; i++) {
+    dis = num[i] - num[i + 1];
+    d.add(i);
+    if (dis < 0) {
+      d[i] = dis * -1;
+    }
+    if (dis > 0) {
+      d[i] = dis;
+    }
+  }
+  print('las distancias son $d');
+  for (var i = 0; i < 9; i++) {
+    if (mayor < d[i]) {
+      mayor = d[i];
+    }
+  }
+  print('la distacia mayor es $mayor');
+}
+
 
 #### 12.3 Prueba de escritorio
 ![Prueba 12](https://user-images.githubusercontent.com/113472808/190944120-343a39aa-7733-4640-9ba0-58b9ec09dab7.PNG)
@@ -836,12 +1024,29 @@ aact-anac
 Se requiere un inicio, se programa un contador en un proceso y se imprime, mediante una condicion se espera que sea 10, en caso no ser 10 el contador aumenta en 1 y regresa a repetir el proceso, una vez el valor sea 10 imprime los 10 numeros para dar fin al programa
 #### 13.2 Diagrama
 ![dfd13for](https://user-images.githubusercontent.com/113472808/198165156-4b06b734-fdad-4b51-a935-222e088e1955.png)
+  
+  
+#### 13.3 Codigo
+  
+//Almacene en un vector el resultado de una tabla de multiplicar 10 numeros FOR
+import 'dart:io';
 
-#### 13.3 Prueba de escritorio
+void main() {
+  var array = [];
+  int n = int.parse(stdin.readLineSync()!);
+  for (var i = 0; i < 11; i++) {
+    array.add(i);
+    array[i] = n * i;
+  }
+  print('$array');
+}
+
+
+#### 13.4 Prueba de escritorio
 ![image](https://user-images.githubusercontent.com/113472808/190945543-cd75ca9b-3bc1-4131-b1d2-9f890305610f.png)
-#### 13.4 Entradas
+#### 13.5 Entradas
 Ninguna se crea un proceso con un contador en sumatoria
-#### 13.5 Salidas
+#### 13.6 Salidas
 1,2,3,4,5,6,7,8,9,10
 
 ### Ejercicio 14. Imprimir el siguiente dibujo
@@ -854,6 +1059,28 @@ Ninguna se crea un proceso con un contador en sumatoria
 Se requiere un incio, con un proceso se hace un contador para los numeros naturales hasta el 10 y con el otro para el proceso de la suma, empiezan los procesos de la suma + el contador para entrar en una condicion, si el resultado es menor a 10 aumenta el contador y regresa a la suma, cuando el resultado ya sea 10 imprime el resultado de las sumas para dar fin al programa.
 #### 14.2 Diagrama
 ![dfd14for](https://user-images.githubusercontent.com/113472808/198165170-fdf77ac5-635e-47ed-84ed-f1f24adbd61a.png)
+                         
+#### 14.3 Codigo
+                         
+/*escriba el siguiente dibujo
+* 
+**
+***
+****
+*****
+*/
+import 'dart:io';
+
+void main() {
+  var n = 5;
+  for (var i = 0; i < 5; i++) {
+    for (var j = 0; j <= i; j++) {
+      stdout.write('*');
+    }
+    print('');
+  }
+}
+
 
 #### 14.3 Prueba de escritorio
 ![image](https://user-images.githubusercontent.com/113472808/190950119-ce00b111-f12c-41dc-84ba-efead85e8e82.png)
