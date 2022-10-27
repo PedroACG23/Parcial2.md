@@ -374,7 +374,7 @@ Ninguna, se crea un contador en 10 y un array que almacene los 11 numeros.
 
 ### Ejercicio 7. Almacene en un vector de tamaño 10 todos los numeros pares capturados hasta completar todos.
 #### 7.1 Analisis
-Se requiere un inicio, se hara una entrada de datos para saber el valor que se le dara a N y posteriormente se hara un proceso de datos para sacar su cuadrado mediante NxN para dar fin al programa.
+En un vector de [10] se van a almacenar los numeros pares que se logren capturar hasta llenar todos, los impares no deben entrar al vector por lo que se ignoraran y seguiran. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 [2 4 6 8 10 12 14 16 18 20]
 #### 7.2 Diagrama
 ![dfd7while](https://user-images.githubusercontent.com/113472808/198164938-3b43779c-f1cd-4635-94b3-33d367b69935.png)
 
@@ -444,13 +444,13 @@ void main() {
 #### 7.4 Prueba de escritorio
 ![Prueba7](https://user-images.githubusercontent.com/113472808/190938531-1b44c3a1-0af2-4a56-a858-bfa062d939ac.PNG)
 #### 7.5 Entradas
-Se solicita el valor de N para dar paso a la operacion
+Insertar la cantidad de N numeros hasta que se complete el vector que almacenara solo los N numeros pares hasta haber leido 10. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
 #### 7.6 Salidas
-NxN
+[2 4 6 8 10 12 14 16 18 20]
 
 ### Ejercicio 8. Obtenga el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificacion es entre 0 y 10 y el maximo de alumnos es 15. Indique la calificacion mas alta.
 #### 8.1 Analisis
-Se requiere un inicio, se hara una entrada de datos para conocer el año de nacimiento del usuario, posteriormente se hara un proceso para calcular su edad restando a 2022 el año de nacimiento de la persona, para despues dar fin al programa.
+Insertar N cantidad de calificaciones, almacenar en un contador los alumnos que aprobaron <6 y sumarlos para sacar el promedio y los alumnos que reprobaron >6, solo se pueden insertar calificaciones entre el numero 0 y 10 por lo que si excede el numero no sera una calificacion valida, y son maximo 15 alumnos, por lo que se tendran que llenar 15 espacios pero no mas. Ademas almacenar las calificaciones para compararlas y ver cual de todas las insertadas es la mas alta.
 #### 8.2 Diagrama
 ![dfd8while](https://user-images.githubusercontent.com/113472808/198164957-56ab69e6-c7df-40a4-b30f-e598c013c174.png)
 
@@ -596,13 +596,13 @@ void main() {
 #### 8.4 Prueba de escritorio
 ![Prueba8](https://user-images.githubusercontent.com/113472808/190938716-8d8b5a2f-56ba-4eef-9429-7394177dfb6b.PNG)
 #### 8.5 Entradas
-Se pregunta al usuario su año de nacimiento registrado como "anac"
+5 8 6 9 7 5 8 4 5 10 4 9 7 8 9 
 #### 8.6 Salidas
-2022-anac
+promedio 8.1, calificacion mas alta 10 y reprobados 5
 
 ### Ejercicio 9.  Capture N numeros en el rango li ls donde Li=Limite inferior y Ls=limite superior para Li<ls y Li>0. Obtenga Cantidad de numeros pares y su promedio, cantidad de numeros impares y su promedio y que promedio es mayor.
 #### 9.1 Analisis
-Se requiere un inicio, posteriormente mediante una entrada de datos se preguntara el año de nacimiento registrado como anac y el año actual registrado como aact, para despues sacar la edad de la persona calculando la resta de aact-anac para dar fin al programa
+Capturar los N numeros del rango introducido que es li y ls, donde li debe ser menor a ls y mayor a 0 y ls debe ser mayor a li, sumar los pares para sacar su promedio y cuantos son al igual que con los impares, y de esos 2 promedios tenemos que compararlos para saber cual de esos es mayor.
 #### 9.2 Diagrama
 ![dfd9while](https://user-images.githubusercontent.com/113472808/198164987-12368753-6e1f-423e-8dac-da4c5239b8bd.png)
   
@@ -790,13 +790,13 @@ void main() {
 #### 9.4 Prueba de escritorio
 ![Prueba9](https://user-images.githubusercontent.com/113472808/190939049-95c89175-8074-4c13-89c4-7c475d74bcbe.PNG)
 #### 9.5 Entradas
-Se registra el año actual como "anac" y el año de nacimiento como "aact"
+Capturar los limites ejemplo establecer el limite inferior 2 y superior 7
 #### 9.6 Salidas
-aact-anac
+promedio pares 4, promedio impares 5, el promedio mayor es 5
 
 ### Ejercicio 10. Obtener la frecuencia de N calificaciones entre 1,10 Indique cantidad de reprobados, cantidad de aprobados, promedio de aprobados y promedio general.
 #### 10.1 Analisis
-Se requiere un inicio, mediante una entrada de datos se pediira un numero y posteriormente otro para despues en un proceso sacar el cuadrado de la suma de esos 2 para dar fin al programa
+Se requiere obtener N calificaciones entre 1 y 10 de calificacion, sacar la frecuencia con la que cada calificacion aparece, indicar cunantos alumnos reprobaron, cuantos son los que aprobaron, sacar el promedio de aprobados mediante un contador y una suma solo de los aprobados 6> y un promedio general por lo que tambien se deben contar los reprobados y el total de todos los alumnos y sus calificaciones para sacar su promedio general
 #### 10.2 Diagrama
 ![dfd10dowhile](https://user-images.githubusercontent.com/113472808/198165017-150285fe-bcd2-4d4c-8c78-7a44adf945dd.png)
   
@@ -903,7 +903,7 @@ void main() {
   print('La frecuencia de 9 es $C9');
   print('La frecuencia de 10 es $C10');
   print('Cantidad de reprobados $contr');
-  print('cantidad de aprovaodos $conta');
+  print('cantidad de aprobados $conta');
   print('promedio general $promg');
   print('promedio aprobados $porma');
 }
@@ -912,13 +912,27 @@ void main() {
 #### 10.4 Prueba de escritorio
 ![Prueba10](https://user-images.githubusercontent.com/113472808/190939857-ec4ae301-666c-4218-9937-02c185c1a5d6.PNG)
 #### 10.5 Entradas
-Se piden 2 numeros registrados con las variables n1 y n2 respectivamente
+5 4 7 7 8 9 4 10 10 10 
 #### 10.5 Salidas
-(n1+n2)x(n1+n2)
+La frecuencia de 0 es 0
+La frecuencia de 1 es 0
+La frecuencia de 2 es 0
+La frecuencia de 3 es 0
+La frecuencia de 4 es 2
+La frecuencia de 5 es 1
+La frecuencia de 6 es 0
+La frecuencia de 7 es 2
+La frecuencia de 8 es 1
+La frecuencia de 9 es 1
+La frecuencia de 10 es 3
+Cantidad de reprobados 3
+cantidad de aprobados 7
+promedio general 7.4
+promedio aprobados 8.7
 
 ### Ejercicio 11. Captura 10 numeros enteros positivos y los ponga en un verctor, diga cual es mayor.
 #### 11.1 Analisis
-Se requiere un inicio, en esta ocasion se hara una entrada de datos que registrara el año actual de la persona y su año de nacimiento, posteriormente se comprobara si el año actual de la persona es superior al de nacimiento, si la condicion no se cumple regresara a pedir nuevamente el año actual siendo mayor que el de nacimiento, en caso de que si se cumple se realizara un proceso para saber la edad restando el año de nacimiento al año actual para dar fin al programa
+se requiere un vector de [10] para capturar N numeros hasta contar 10 positivos, de esos 10 compararlos para saber cual es mayor [1 2 3 4 5 65 6 7 8 40] 65
 #### 11.2 Diagrama
 ![dfd11for](https://user-images.githubusercontent.com/113472808/198165097-466a6bbb-1a9b-4966-81b1-f25e6d64ed5e.png)
                 
@@ -965,13 +979,13 @@ void main() {
                 
                 
 #### 11.5 Entradas
-Se pregunta al usuario su año actual como "aact" y posteriormente su año de nacimiento como "anac" luego se hace una operacion para calcular la edad
+capturar los N numeros hasta tener 10 positivos 2 5 8 96 3 4 5 8 4 6 
 #### 11.6 Salidas
-aact-anac
+[2, 5, 8, 96, 3, 4, 5, 8, 4, 6] Mayor es 96, el menor es 2
 
 ### Ejercicio 12. Obtener la distancia mayor de 2 numeros consecutivos en una lista de 10 vectores.
 #### 12.1 Analisis
-Se requiere un inicio, se le pedira al usuario su año de nacimiento y se comprobara que sea mayor a 0 si la condicion se cumple le pedira el año de actual mayor al año nacimiento, si se cumple la condicion se genera un proceso de operacion para calcular la edad aact-anac para dar fin al programa
+De una lista en un vector de 10 como por ejemplo [4 6 2 5 0 8 4 6 5 2] sacar su distancia y ver cual es mayor entre cada uno [2 4 3 5 8 4 2 1 3] la distancia mayor aqui seria 8
 #### 12.2 Diagrama
 ![dfd12for](https://user-images.githubusercontent.com/113472808/198165127-f751b4a5-7ad2-400f-a298-d27faecb2784.png)
                 
@@ -1021,13 +1035,13 @@ void main() {
 #### 12.3 Prueba de escritorio
 ![Prueba 12](https://user-images.githubusercontent.com/113472808/190944120-343a39aa-7733-4640-9ba0-58b9ec09dab7.PNG)
 #### 12.4 Entradas
-Se le pide al usuario su año de nacimiento mayor a 0 guardado como anac y el actual registrado como aact
+Almacenar los 10 numeros positivos [4 6 2 5 0 8 4 6 5 2] sacar las distacias y decir cual es mayor
 #### 12.5 Salidas
-aact-anac
+[2 4 3 5 8 4 2 1 3] la distancia mayor es 8
 
 ### Ejercicio 13. Almacene en un array el resultado de una tabla de multiplicar (10 numeros)
 #### 13.1 Analisis
-Se requiere un inicio, se programa un contador en un proceso y se imprime, mediante una condicion se espera que sea 10, en caso no ser 10 el contador aumenta en 1 y regresa a repetir el proceso, una vez el valor sea 10 imprime los 10 numeros para dar fin al programa
+
 #### 13.2 Diagrama
 ![dfd13for](https://user-images.githubusercontent.com/113472808/198165156-4b06b734-fdad-4b51-a935-222e088e1955.png)
   
