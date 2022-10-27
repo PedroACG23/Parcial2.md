@@ -12,6 +12,12 @@ Se necesita que el programa avance del 1 al 10, mientras vaya sumando mediante u
 
 #### 1.3 Prueba de escritorio
 
+![image](https://user-images.githubusercontent.com/113472808/198320670-8b90cce5-9cdf-4b1e-8629-1c32efda71ba.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198320850-07915870-0110-4d30-add2-799da1d72d53.png)
+
+![image](https://user-images.githubusercontent.com/113472808/198320967-77ef664a-78b6-4480-b4fe-f6c39f6c38f3.png)
+
 
 #### 1.4 codigo
 //Contar los numeros del 1 al 10 DoWhile
@@ -49,11 +55,11 @@ void main() {
 #### 1.5 Entradas
 Ningua, solo establece un contador en 0 que vaya en aumento hasta 10
 #### 1.6 Salidas
-Imprime el aumento del contador. 1,2,3,4,5,6,7,8,9,10
+1,2,3,4,5,6,7,8,9,10
 
 ### Ejercicio 2. Contar del 1 al 10 y sumar los valores.
 #### 2.1 Analisis
-Se requiere insertar un inicio y posteriormente una salida de datos que imprima un dia de la semana como texto "Dia" para dar fin con el programa
+Imprimir un contador que vaya en aumento del 1 al 10, 1 2 3 4 5 6 7 8 9 10 y hacer que sume los valores 1+2+3+4+5+6+7+8+9+10=55
 #### 2.2 Diagrama
 ![dfd2while](https://user-images.githubusercontent.com/113472808/198164778-f3e2fcf3-63b1-43ec-9954-80a31f344aac.png)
 
@@ -61,7 +67,7 @@ Se requiere insertar un inicio y posteriormente una salida de datos que imprima 
 
 ![dfd2for](https://user-images.githubusercontent.com/113472808/198164781-8ad2f5f0-3e9c-434f-ad28-4b5192a07236.png)
 
-#### 2.5 Codigo
+#### 2.3 Codigo
 //Contar del 1 al 10 y sumar los valores DoWhile
 
 void main() {
@@ -106,13 +112,13 @@ void main() {
 #### 2.4 Prueba de escritorio
 
 #### 2.5 Entradas
-Ninguna, solo se asigna la impresion de "Lunes"
+Ninguna, solo se establece un contador, y posteriormente una suma que guarde cada numero que va imprimiendo el contador y lo sume con el siguiente
 #### 2.6 Salidas
-Lunes
+55
 
 ### Ejercicio 3. Obtenga la suma de los primeros 5 numeros pares.
 #### 3.1 Analisis
-Se requiere insertar un inicio, se pedira el nombre en un proceso para asignar la variable, imprimira "Hola Nombre" para dar fin al programa
+Establecer un contador para que imprima numeros consecutivos comprobar que sean pares hasta completar 5 numeros pares y sumarlos. 1 2 3 4 5 6 7 8 9 10 2+4+6+8+10=30
 #### 3.2 Diagrama
 ![dfd3while](https://user-images.githubusercontent.com/113472808/198164813-9456f675-9823-4b1f-8637-2138efcee46f.png)
 
@@ -167,13 +173,13 @@ void main() {
 #### 3.4 Prueba de Escritorio
 ![Prueba3](https://user-images.githubusercontent.com/113472808/190934783-b89d1853-b4ab-43c9-affc-b8ecfe692d00.PNG)
 #### 3.5 Entradas
-Ninguna, solo se asigna una cadena con el Nombre para posteriormente imprimir el mensaje "Hola,Nombre" para dar fin al programa
+Ninguna, el contador establece un conteo consecutivo, detecta si un numero es par, y en caso de ser par lo va sumando en una suma.
 #### 3.6 Salidas
-Hola Pedro
+30
 
 ### Ejercicio 4. Almacena en un array el numero N leido del teclado, el tamaño del array es 10.
 #### 4.1 Analisis
-Se requiere insertar un inicio, el programa preguntara el nombre al usuario, lo asignara en una entrada de datos y soltara una salida imprimiendo "Buen dia,Nom" para dar fin al programa
+En un array [10] alamacenar el numero N leido, 5 [5,5,5,5,5,5,5,5,5,5]
 #### 4.2 Diagrama
 ![dfd4while](https://user-images.githubusercontent.com/113472808/198164856-1cb3c365-538e-41f4-8afe-755f106f4b94.png)
 
@@ -233,13 +239,13 @@ void main() {
 #### 4.4 Prueba de escritorio
 ![Prueba4](https://user-images.githubusercontent.com/113472808/190936214-9e9812d1-cda7-40c5-a980-049e0c0cd13b.PNG)
 #### 4.5 Entradas
-Se pide que se introduzca el nombre de la persona
+Se crea un array de 10, y se almacena el numero N "5" por ejemplo
 #### 4.6 Salidas
-Buen dia Pedro
+[5,5,5,5,5,5,5,5,5,5]
 
 ### Ejercio 5. Almacene los N numeros leidos del teclado en un vector de 10 elementos.
 #### 5.1 Analisis 
-Se requiere un inicio, para ingresar un proceso de datos para la operacion 2x2 para imprimir el resultado y dar fin al programa
+Crear una array de [10] hasta llenarlo de numeros leidos del teclado. [4,6,2,4,1,7,8,10,5,2]
 #### 5.2 Diagrama
 ![dfd5while](https://user-images.githubusercontent.com/113472808/198164893-47049259-3d7d-46c3-bd32-3e6da32f516e.png)
 
@@ -302,13 +308,13 @@ void main() {
 #### 5.4 Prueba de escritorio
 ![Prueba5](https://user-images.githubusercontent.com/113472808/190936639-8b5e7f29-d8ee-477c-835b-0f9d3f9f9726.PNG)
 #### 5.5 Entradas
-Ninguna solo se realiza el proceso 2x2
+Ingresamos n numeros hasta completar 10. 2 4 7 5 78 10 2 53 2 6
 #### 5.6
-2x2
+[2, 4, 7, 5, 78, 10, 2, 53, 2, 6]
 
 ### Ejercicio 6. Almacene un contador regresivo en un vector, el conteo es de 10 a 0
 #### 6.1 Analisis
-Se requiere un inicio, para ingresar el valor de N que sera de 5, posteriomente un proceso donde se saque su cuadrado con NxN para despues dar fin al programa
+Se necesita crear un array para almacenar un conteo de 10 a 0, en este caso seria de [11] hacer un contador que empiece en 10 e irlo reduciendo hata que sea igual a 0.
 #### 6.2 Diagrama
 ![dfd6while](https://user-images.githubusercontent.com/113472808/198164913-883e216b-1cc5-4500-9f26-1f846da589a4.png)
 
@@ -362,9 +368,9 @@ void main() {
 #### 6.4 Prueba de escritorio
 ![Prueba6](https://user-images.githubusercontent.com/113472808/190938291-fef70064-aac0-4b32-8698-f33c87e781d5.PNG)
 #### 6.5 Entradas
-Ninguna, en este caso solo se le imparte el valor de 5 a N
+Ninguna, se crea un contador en 10 y un array que almacene los 11 numeros.
 #### 6.6 Salidas 
-NxN
+[10,9,8,7,6,5,4,3,2,1,0]
 
 ### Ejercicio 7. Almacene en un vector de tamaño 10 todos los numeros pares capturados hasta completar todos.
 #### 7.1 Analisis
