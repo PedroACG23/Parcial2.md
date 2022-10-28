@@ -12,11 +12,11 @@ Se necesita que el programa avance del 1 al 10, mientras vaya sumando mediante u
 
 #### 1.3 Prueba de escritorio
 
-![image](https://user-images.githubusercontent.com/113472808/198320670-8b90cce5-9cdf-4b1e-8629-1c32efda71ba.png)
+![image](https://user-images.githubusercontent.com/113472808/198423250-41a0f6d9-cedb-4e5a-8f4d-1df1350b348e.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198320850-07915870-0110-4d30-add2-799da1d72d53.png)
+![image](https://user-images.githubusercontent.com/113472808/198423357-79559da4-3245-4a43-94fd-8d15dd80412c.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198320967-77ef664a-78b6-4480-b4fe-f6c39f6c38f3.png)
+![image](https://user-images.githubusercontent.com/113472808/198423418-f94c567d-964f-4c7b-b914-1f63518aba46.png)
 
 
 #### 1.4 codigo
@@ -393,11 +393,11 @@ void main() {
 
 #### 6.4 Prueba de escritorio
 
-![image](https://user-images.githubusercontent.com/113472808/198338485-b08abee7-f19c-4c3e-ba4f-37860a3671fd.png)
+![image](https://user-images.githubusercontent.com/113472808/198423720-7cd8619a-ce79-4a04-8700-10fe67f6118a.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338498-5e9eba3b-26ac-4a07-bf9e-8515928a88df.png)
+![image](https://user-images.githubusercontent.com/113472808/198423749-7e59cc72-4b40-4d9c-8e6c-01b445b8e9e0.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338518-8f67d747-35c8-4fcc-8ae9-9ea2370831f6.png)
+![image](https://user-images.githubusercontent.com/113472808/198423762-e2e5e91f-dac1-42e4-9e51-3205dc9e03b0.png)
 
 
 #### 6.5 Entradas
@@ -476,12 +476,11 @@ void main() {
 
 #### 7.4 Prueba de escritorio
 
-![image](https://user-images.githubusercontent.com/113472808/198338655-b374ad0c-6626-4836-8c0d-651f9369151b.png)
+![image](https://user-images.githubusercontent.com/113472808/198423855-2eb251a8-10a9-4403-b9cc-35392687e161.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338668-698ecf2c-eb28-4b13-9451-ea5bca839e63.png)
+![image](https://user-images.githubusercontent.com/113472808/198423884-d8f04a83-9c4e-4902-a07d-87fbf69544e5.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338684-511cfb4a-1b6b-4458-8a3b-1dc39d91a467.png)
-
+![image](https://user-images.githubusercontent.com/113472808/198423935-e410b9e4-adbe-4eda-9ff7-fbb8af3065e9.png)
 
 #### 7.5 Entradas
 Insertar la cantidad de N numeros hasta que se complete el vector que almacenara solo los N numeros pares hasta haber leido 10. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
