@@ -494,7 +494,7 @@ Insertar N cantidad de calificaciones, almacenar en un contador los alumnos que 
 #### 8.2 Diagrama
 ![dfd8while](https://user-images.githubusercontent.com/113472808/198164957-56ab69e6-c7df-40a4-b30f-e598c013c174.png)
 
-![dfd8dowhile](https://user-images.githubusercontent.com/113472808/198164960-da1638e1-6fa9-4f41-9b48-95faa5c54e17.png)
+![dfd8dowhile](https://user-images.githubusercontent.com/113472808/198422074-c42b413d-334d-4550-9b8a-1774932d2513.png)
 
 ![dfd8for](https://user-images.githubusercontent.com/113472808/198164963-86a46873-ca5c-4bd7-924c-4aa07d3021ac.png)
 
@@ -635,11 +635,12 @@ void main() {
 
 #### 8.4 Prueba de escritorio
 
-![image](https://user-images.githubusercontent.com/113472808/198338766-23856ed8-b01c-461a-afa4-32b0b38ea02e.png)
+![image](https://user-images.githubusercontent.com/113472808/198422619-10acc4bb-cbb9-44ef-919b-5eb1278dc15f.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338790-2dbe720d-e733-4b17-ad63-2a6ae749de65.png)
+![image](https://user-images.githubusercontent.com/113472808/198422844-c5e1f861-3993-4263-8764-ed1a41373fed.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338821-e638cd24-4dbf-40a8-8f45-4ab70a259a2b.png)
+![image](https://user-images.githubusercontent.com/113472808/198423150-c6d8ac97-8904-4a18-aeb5-c365ab6b0306.png)
+
 
 #### 8.5 Entradas
 5 8 6 9 7 5 8 4 5 10 4 9 7 8 9 
@@ -835,11 +836,12 @@ void main() {
 
 #### 9.4 Prueba de escritorio
 
-![image](https://user-images.githubusercontent.com/113472808/198338897-967e07d6-71d1-488d-ae9d-cc46e55520ce.png)
+![image](https://user-images.githubusercontent.com/113472808/198421281-bac8a1bd-a4bc-43cf-9390-d3f8313970ee.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338946-7c974e9d-e67d-4e4b-8805-7382bb70bce8.png)
+![image](https://user-images.githubusercontent.com/113472808/198421388-4fec83d9-c734-4b99-9744-0abc4ae17d9d.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338979-a632872b-9ffc-4c5a-a18e-7488f6160bb2.png)
+![image](https://user-images.githubusercontent.com/113472808/198421548-f055df36-5b23-4638-bfac-9bee5e0b9bb9.png)
+
   
 #### 9.5 Entradas
 Capturar los limites ejemplo establecer el limite inferior 2 y superior 7
