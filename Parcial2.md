@@ -111,12 +111,11 @@ void main() {
 
 #### 2.4 Prueba de escritorio
 
-![image](https://user-images.githubusercontent.com/113472808/198338067-215e9e57-640b-4489-8f9d-da8d571f279c.png)
+![image](https://user-images.githubusercontent.com/113472808/198418778-4cf29286-1a00-4253-819e-965a7abdbe5d.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338082-1309dd06-42ef-4707-a226-fc847d748e45.png)
+![image](https://user-images.githubusercontent.com/113472808/198418801-284b0f46-bdbf-4982-a5e5-a9c5c4e14ed0.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338100-7d927164-3fca-489c-8d26-bd894498bf8b.png)
-
+![image](https://user-images.githubusercontent.com/113472808/198418815-b199fd21-4b3f-45ac-a9cf-2bb9e07a9769.png)
 
 #### 2.5 Entradas
 Ninguna, solo se establece un contador, y posteriormente una suma que guarde cada numero que va imprimiendo el contador y lo sume con el siguiente
@@ -179,12 +178,11 @@ void main() {
 
 #### 3.4 Prueba de Escritorio
 
-![image](https://user-images.githubusercontent.com/113472808/198338156-33eb6d41-1f1a-48d3-ac26-d7f7bc0901d1.png)
+![image](https://user-images.githubusercontent.com/113472808/198418852-f771015b-2d96-4b5b-8ad4-92febcd20258.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338175-fc0faeb3-f068-40eb-ad4f-34ce1495dde4.png)
+![image](https://user-images.githubusercontent.com/113472808/198418884-9941774c-79ef-496c-859e-955d14ab1dfb.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338192-62df15b9-e8d7-43a6-8d17-462db7f0857e.png)
-
+![image](https://user-images.githubusercontent.com/113472808/198418905-8ed201f5-2334-4843-a1c1-cff811ada17f.png)
 
 #### 3.5 Entradas
 Ninguna, el contador establece un conteo consecutivo, detecta si un numero es par, y en caso de ser par lo va sumando en una suma.
@@ -252,11 +250,12 @@ void main() {
 
 #### 4.4 Prueba de escritorio
 
-![image](https://user-images.githubusercontent.com/113472808/198338244-ed747bed-59fe-4d2e-a83c-86cea66a7ca9.png)
+![image](https://user-images.githubusercontent.com/113472808/198418942-13f31225-928c-474e-a4bd-ceb44ff60542.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338256-bb859094-9576-498b-bcf7-98509d41cd0c.png)
+![image](https://user-images.githubusercontent.com/113472808/198418961-b4558030-a6cd-45d8-867c-1e71037564be.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338270-a0242db8-b83a-46fc-8e6c-d96f673d7e84.png)
+![image](https://user-images.githubusercontent.com/113472808/198418983-33ea7ee0-112d-428b-987a-fddc40b7a45c.png)
+
 
 #### 4.5 Entradas
 Se crea un array de 10, y se almacena el numero N "5" por ejemplo
@@ -327,11 +326,11 @@ void main() {
 
 #### 5.4 Prueba de escritorio
 
-![image](https://user-images.githubusercontent.com/113472808/198338395-61039f54-c283-4298-bbed-63a0aaaec47b.png)
+![image](https://user-images.githubusercontent.com/113472808/198419009-5b6a2ad0-80be-42cd-8c07-e298712646ae.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338409-4e8887da-adc6-4914-8daa-9b8aab833ec7.png)
+![image](https://user-images.githubusercontent.com/113472808/198419018-986c1806-0043-4690-9f66-ef9778b39186.png)
 
-![image](https://user-images.githubusercontent.com/113472808/198338421-f5e1ad3b-d565-4841-87f4-58d1c7d58ec8.png)
+![image](https://user-images.githubusercontent.com/113472808/198419043-84ace47f-b55b-4366-8354-de0d565e96cc.png)
 
 
 #### 5.5 Entradas
